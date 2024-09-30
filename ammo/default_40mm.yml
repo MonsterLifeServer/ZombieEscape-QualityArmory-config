@@ -8,7 +8,7 @@ craftingRequirements:
 - GUNPOWDER,0,1
 - REDSTONE,0,1
 craftingReturnAmount: 1
-price: 30
+price: -1
 maxItemStack: 10
 material: PHANTOM_MEMBRANE
 piercingSeverity: 10.0

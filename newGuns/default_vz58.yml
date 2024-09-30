@@ -1,5 +1,5 @@
 name: vz58
-displayname: '&6VZ.58'
+displayname: '&6VZ.58(M)'
 id: 4
 variant: 1
 craftingRequirements:
@@ -52,4 +52,4 @@ firing_knockback: 0
 KilledByMessage: '%player% was shot by %killer% using a %name%'
 DestructableMaterials:
 - MATERIAL_NAME_HERE
-lastModifiedByQA: 1727705205439
+lastModifiedByQA: 1727706863502

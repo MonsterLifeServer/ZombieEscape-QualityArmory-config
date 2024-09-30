@@ -6,12 +6,12 @@ id: 19
 craftingRequirements:
 - IRON_INGOT,0,5
 - OBSIDIAN,0,1
-price: 5000
+price: -1
 MiscType: HELMET
 minProtectionHeight: 1.5
 maxProtectionHeight: 2.0
 stopsHeadshots: true
-lastModifiedByQA: 1727705205451
+lastModifiedByQA: 1727706863510
 material: PHANTOM_MEMBRANE
 weaponsounds: bulletmedium
 damage: 3

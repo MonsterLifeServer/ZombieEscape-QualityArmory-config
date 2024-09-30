@@ -1,5 +1,5 @@
 name: aa12
-displayname: '&6AA-12'
+displayname: '&6AA-12(M)'
 id: 18
 variant: 0
 craftingRequirements:
@@ -52,4 +52,4 @@ weaponsounds_volume: 4
 firing_knockback: 0
 DestructableMaterials:
 - MATERIAL_NAME_HERE
-lastModifiedByQA: 1727705204900
+lastModifiedByQA: 1727705794879

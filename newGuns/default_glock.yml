@@ -1,5 +1,5 @@
 name: glock
-displayname: '&6Glock-17'
+displayname: '&6Glock-17(S)'
 id: 1
 variant: 2
 craftingRequirements:
@@ -54,4 +54,4 @@ firing_knockback: 0
 KilledByMessage: '%player% was shot by %killer% using a %name%'
 DestructableMaterials:
 - MATERIAL_NAME_HERE
-lastModifiedByQA: 1727705205459
+lastModifiedByQA: 1727705794935

@@ -1,5 +1,5 @@
 name: sawedoffshotgun
-displayname: '&6Sawed-off Shotgun'
+displayname: '&6Sawed-off Shotgun(M)'
 id: 63
 variant: 0
 craftingRequirements:
@@ -53,4 +53,4 @@ firing_knockback: 0
 KilledByMessage: '%player% was shot by %killer% using a %name%'
 DestructableMaterials:
 - MATERIAL_NAME_HERE
-lastModifiedByQA: 1727705205442
+lastModifiedByQA: 1727706863505

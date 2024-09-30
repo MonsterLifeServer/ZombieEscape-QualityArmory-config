@@ -1,5 +1,5 @@
 name: spas12
-displayname: '&6Spas-12'
+displayname: '&6Spas-12(M)'
 id: 17
 variant: 0
 craftingRequirements:
@@ -53,4 +53,4 @@ firing_knockback: 0
 KilledByMessage: '%player% was shot by %killer% using a %name%'
 DestructableMaterials:
 - MATERIAL_NAME_HERE
-lastModifiedByQA: 1727705204898
+lastModifiedByQA: 1727706863451

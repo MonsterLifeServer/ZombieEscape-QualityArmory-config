@@ -8,7 +8,7 @@ id: 46
 craftingRequirements:
 - IRON_INGOT,0,8
 - NETHER_STAR,0,1
-price: 10000
+price: -1
 material: CROSSBOW
 damage: 9
 durability: 1000

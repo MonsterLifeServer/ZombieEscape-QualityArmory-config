@@ -6,7 +6,7 @@ id: 75
 craftingRequirements:
 - WHITE_WOOL,0,6
 - uzi
-price: 2400
+price: -1
 material: CROSSBOW
 baseGun: uzi
 lastModifiedByQA: 1727705206554

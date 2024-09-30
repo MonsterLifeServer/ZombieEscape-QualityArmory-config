@@ -1,5 +1,5 @@
 name: remington
-displayname: '&6Remington'
+displayname: '&6Remington(M)'
 id: 7
 variant: 0
 craftingRequirements:
@@ -54,4 +54,4 @@ firing_knockback: 0
 KilledByMessage: '%player% was shot by %killer% using a %name%'
 DestructableMaterials:
 - MATERIAL_NAME_HERE
-lastModifiedByQA: 1727705204868
+lastModifiedByQA: 1727706863438

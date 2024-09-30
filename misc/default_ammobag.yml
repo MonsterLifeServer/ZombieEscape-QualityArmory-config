@@ -8,7 +8,7 @@ id: 85
 craftingRequirements:
 - STRING,0,2
 - LEATHER,0,6
-price: 100
+price: -1
 material: CROSSBOW
 damage: 0
 durability: 1000

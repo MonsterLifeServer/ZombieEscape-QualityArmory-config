@@ -10,7 +10,7 @@ id: 29
 craftingRequirements:
 - IRON_INGOT,0,6
 - GUNPOWDER,0,10
-price: 100
+price: -1
 material: CROSSBOW
 damage: 100
 durability: 1

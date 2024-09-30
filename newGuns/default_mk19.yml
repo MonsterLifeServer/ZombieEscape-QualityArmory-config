@@ -1,5 +1,5 @@
 name: mk19
-displayname: '&6Mk-19'
+displayname: '&6Mk-19(M)'
 id: 57
 variant: 0
 craftingRequirements:
@@ -57,4 +57,4 @@ weaponsounds_volume: 4
 firing_knockback: 0
 DestructableMaterials:
 - MATERIAL_NAME_HERE
-lastModifiedByQA: 1727705205427
+lastModifiedByQA: 1727706863496

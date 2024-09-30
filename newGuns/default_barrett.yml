@@ -1,5 +1,5 @@
 name: barrett
-displayname: '&6Barrett-M82'
+displayname: '&6Barrett-M82(M)'
 id: 52
 variant: 0
 craftingRequirements:
@@ -56,4 +56,4 @@ weaponsounds_volume: 4
 firing_knockback: 0
 DestructableMaterials:
 - MATERIAL_NAME_HERE
-lastModifiedByQA: 1727705205413
+lastModifiedByQA: 1727705794914

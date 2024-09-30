@@ -1,5 +1,5 @@
 name: mauser
-displayname: '&6Mauser C96'
+displayname: '&6Mauser C96(S)'
 id: 14
 variant: 0
 craftingRequirements:
@@ -54,4 +54,4 @@ firing_knockback: 0
 KilledByMessage: '%player% was shot by %killer% using a %name%'
 DestructableMaterials:
 - MATERIAL_NAME_HERE
-lastModifiedByQA: 1727705204885
+lastModifiedByQA: 1727706863446

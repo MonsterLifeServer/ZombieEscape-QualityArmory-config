@@ -7,7 +7,7 @@ craftingRequirements:
 - IRON_INGOT,0,10
 - REDSTONE,0,4
 craftingReturnAmount: 30
-price: 60
+price: -1
 maxItemStack: 30
 material: PHANTOM_MEMBRANE
 piercingSeverity: 0.2

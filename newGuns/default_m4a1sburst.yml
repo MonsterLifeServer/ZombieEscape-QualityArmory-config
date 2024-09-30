@@ -1,5 +1,5 @@
 name: m4a1sburst
-displayname: '&6M4A1s (Burst)'
+displayname: '&6M4A1s (Burst)(M)'
 id: 25
 variant: 1
 craftingRequirements:
@@ -53,4 +53,4 @@ firing_knockback: 0
 KilledByMessage: '%player% was shot by %killer% using a %name%'
 DestructableMaterials:
 - MATERIAL_NAME_HERE
-lastModifiedByQA: 1727705205462
+lastModifiedByQA: 1727706863517

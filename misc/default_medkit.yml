@@ -6,7 +6,7 @@ id: 22
 craftingRequirements:
 - WHITE_WOOL,0,6
 - GOLDEN_APPLE,0,1
-price: 10000
+price: -1
 material: PHANTOM_MEMBRANE
 damage: 9
 durability: 1000

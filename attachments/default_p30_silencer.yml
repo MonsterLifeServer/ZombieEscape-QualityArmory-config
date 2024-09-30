@@ -6,7 +6,7 @@ id: 23
 craftingRequirements:
 - IRON_INGOT,0,4
 - p30
-price: 1000
+price: -1
 material: CROSSBOW
 baseGun: p30
 lastModifiedByQA: 1727705205271

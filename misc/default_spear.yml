@@ -6,7 +6,7 @@ id: 77
 craftingRequirements:
 - IRON_INGOT,0,15
 - REDSTONE,0,5
-price: 100
+price: -1
 material: CROSSBOW
 damage: 6
 durability: 1000

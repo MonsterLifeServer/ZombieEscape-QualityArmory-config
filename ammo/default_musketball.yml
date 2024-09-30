@@ -7,7 +7,7 @@ craftingRequirements:
 - IRON_INGOT,0,4
 - GUNPOWDER,0,3
 craftingReturnAmount: 8
-price: 1
+price: -1
 maxItemStack: 32
 material: PHANTOM_MEMBRANE
 piercingSeverity: 0.7

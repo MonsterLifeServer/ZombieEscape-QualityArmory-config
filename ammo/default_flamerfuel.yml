@@ -6,7 +6,7 @@ id: 0
 craftingRequirements:
 - BLAZE_ROD,0,1
 craftingReturnAmount: 2
-price: 1
+price: -1
 maxItemStack: 64
 material: BLAZE_POWDER
 piercingSeverity: 1.0
