@@ -98,3 +98,94 @@ RegenDestructableBlocksAfter: -1  # 破壊可能なブロックが再生成さ�
 overrideAttackSpeed: true  # 武器の攻撃速度を上書きするかどうか
 DefaultResourcepack: https://github.com/ZombieStriker/QualityArmory-Resourcepack/releases/download/latest/QualityArmory.zip  # デフォルトのリソースパックURL
 ```
+
+## 銃コンフィグ
+```yml
+# 銃の名前(コマンドなどで使用)
+name: ak47
+# アイテムの表示名
+displayname: '&6AK47'
+# アイテムの耐久値(version<=1.13) or CustomModelData(version>1.13)
+id: 5
+# 同じアイテムデータで複数のアイテムを作成するときに使うバリアントタグ
+variant: 0
+# クラフト材料(list)
+# [Material],[Durability],[Amount]
+craftingRequirements:
+- IRON_INGOT,0,15
+- REDSTONE,0,5
+# WeaponType は、作成する武器のクラスを決定します。銃の場合、これは重要ではありません。主に雑貨や防具に使われる。
+weapontype: RIFLE
+# 弾丸が撃たれたときに再生される音
+weaponsounds: bulletmedium
+# 再生するサウンドの音量
+weaponsounds_volume: 4
+# 照準機能(左手に持ちかえる)
+enableIronSights: true
+# 弾薬タイプ
+# 初期値：「9mm」、「40mm」、「50bmg」、「556」、「762」、「fusion_cell」、「mininuke」、「muscketball」、「rocket」、「shell」
+ammotype: '762'
+# 被弾者に与えるダメージ
+damage: 3
+# 銃に込めれる弾数
+maxbullets: 40
+# ショップでの価格
+price: 5000
+# ■揺れ設定
+# defaultValue: defaultの揺れ
+# defaultMultiplier: 乗数
+# unscopedModifier: 照準を使わなかった時の揺れ
+sway:
+  defaultValue: 0.19
+  defaultMultiplier: 2
+  unscopedModifier: 1
+  sneakModifier: true
+  moveModifier: true
+  runModifier: true
+# スニークしているときに銃を自動で表示する(?)
+# firerate的に銃を自動発射させる?
+isAutomatic: true
+# isAutomaticがtrueの時に弾丸を発射する速度
+firerate: 2
+# 一度に発射される弾の数
+bullets-per-shot: 1
+# 反動が有効時にプレイヤーに適用される反動の量
+recoil: 2.0
+# 鈍足効果を使用して照準を合わせる際のプレイヤーの FOV を増加
+# ※1以上に設定すると、プレイヤーにポーション効果が適用
+setZoomLevel: 0
+# 武器のリロードにかかる時間(秒単位)
+delayForReload: 1.5
+# プレイヤーが再び銃を撃つまでにかかる時間(秒単位)
+delayForShoot: 0.3
+# QAが計算を停止するまでの距離
+maxBulletDistance: 200
+# 銃の弾薬数を無制限にするかどうか
+unlimitedAmmo: false
+# LightAPI がサーバーにインストールされている場合、弾丸が発射されたときにプレイヤーに適用される光のレベルを制御します。
+LightLeveOnShoot: 14
+# BulletParticles、およびBulletParticles R、G、Bは、弾丸の軌跡として使用するパーティクルを決定します。REDSTONEを選択した場合、RGBを使用して使用する色を決定します。値の範囲は 0 から 1 で、既定値は白 (RGB= 1,1,1) です
+particles:
+  bullet_particle: REDSTONE
+  bullet_particleR: 1
+  bullet_particleG: 1
+  bullet_particleB: 1
+  bullet_particleData: 0
+  bullet_particleMaterial: COAL_BLOCK
+# ヘッドショットが発生したときにプレイヤーに適用される追加ダメージの量を制御します。デフォルトでは、元のダメージの3.5倍
+headshotMultiplier: 3.5
+invalid: false
+durability: 1000
+maxItemStack: 1
+slownessOnEquip: 0
+Version_18_Support: false
+ChargingHandler: none
+ReloadingHandler: none
+addMuzzleSmoke: true
+drop-glow-color: none
+firing_knockback: 0
+KilledByMessage: '%player% was shot by %killer% using a %name%'
+DestructableMaterials:
+- MATERIAL_NAME_HERE
+lastModifiedByQA: 1719560543085
+```
