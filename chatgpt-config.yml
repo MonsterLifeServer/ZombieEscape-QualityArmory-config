@@ -91,4 +91,7 @@ IronSightsOnRightClick: false  # 右クリックでアイアンサイトを使�
 SwapSneakToSingleFire: false  # しゃがみを単発射撃に切り替えるかどうか
 DestructableMaterials:
 - MATERIAL_NAME_HERE  # 破壊可能な素材のリスト
-RegenDestructableBlocks
+RegenDestructableBlocksAfter: -1  # 破壊可能なブロックが再生成されるまでの時間（-1は再生成しない）
+overrideAttackSpeed: true  # 武器の攻撃速度を上書きするかどうか
+DefaultResourcepack: https://github.com/ZombieStriker/QualityArmory-Resourcepack/releases/download/latest/QualityArmory.zip  # デフォルトのリソースパックURL
+
