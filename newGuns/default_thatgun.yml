@@ -8,7 +8,7 @@ craftingRequirements:
 weapontype: PISTOL
 weaponsounds: bulletdeagle
 enableIronSights: true
-ammotype: '556'
+ammotype: '5566'
 damage: 5
 maxbullets: 12
 price: 2000
@@ -49,9 +49,9 @@ ChargingHandler: none
 addMuzzleSmoke: true
 drop-glow-color: none
 headshotMultiplier: 3.5
-weaponsounds_volume: 4
+weaponsounds_volume: 1
 weaponsounds_reloadingSound: reloadmagclick
-firing_knockback: 0
+firing_knockback: 0.3
 KilledByMessage: '%player% was shot by %killer% using a %name%'
 DestructableMaterials:
 - MATERIAL_NAME_HERE

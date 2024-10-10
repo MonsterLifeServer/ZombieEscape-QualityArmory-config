@@ -1,5 +1,5 @@
 ENABLE-DEBUG: false
-language: en
+language: ja
 FriendlyFireEnabled: false
 KickPlayerIfDeniedResourcepack: false
 useDefaultResourcepack: true
@@ -45,12 +45,13 @@ weaponlimiter_secondaries: 2
 enableCrafting: true
 enableShop: true
 AUTO-UPDATE: true
-Swap-Reload-and-Shooting-Controls: false
+Swap-Reload-and-Shooting-Controls: true
 Order-Shop-By-Price: false
 enable_lore_gun-info_messages: true
 enable_lore_control-help_messages: true
 Enable_Headshot_Instantkill: true
-Enable_Headshot_Notification_Sound: true
+# プラグインで再生するのでOFF
+Enable_Headshot_Notification_Sound: false
 Headshot_Notification_Sound: entity.experience_orb.pickup
 Enable_Headshot_Sounds: true
 Enable_AutoArm_Grenades: false
@@ -64,7 +65,7 @@ unknownTranslationKeyFixer: false
 Enable_Creation_Of_Default_Files: true
 EnableGlowEffects: false
 Break-Block-Texture-If-Shot: true
-enableRecoil: true
+enableRecoil: false
 experimental:
   BulletWounds:
     InitialBloodLevel: 1500.0
@@ -86,11 +87,26 @@ deathmessages:
   enable: true
 impenetrableEntityTypes:
 - ARROW
-DefaultResourcepackOverride: false
+DefaultResourcepackOverride: true
 IronSightsOnRightClick: false
-SwapSneakToSingleFire: false
+SwapSneakToSingleFire: true
 DestructableMaterials:
 - MATERIAL_NAME_HERE
 RegenDestructableBlocksAfter: -1
 overrideAttackSpeed: true
-DefaultResourcepack: https://github.com/ZombieStriker/QualityArmory-Resourcepack/releases/download/latest/QualityArmory.zip
+DefaultResourcepack: https://github.com/MonsterLifeServer/QualityArmory-Resourcepack/releases/download/latest/QualityArmory.zip
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

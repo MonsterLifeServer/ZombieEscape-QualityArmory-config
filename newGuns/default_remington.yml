@@ -47,10 +47,10 @@ Version_18_Support: false
 addMuzzleSmoke: true
 drop-glow-color: none
 headshotMultiplier: 3.5
-weaponsounds_volume: 4
+weaponsounds_volume: 1
 weaponsounds_reloadingSound: reloadshell
 weaponsounds_chargingSound: reloadbolt
-firing_knockback: 0
+firing_knockback: 0.3
 KilledByMessage: '%player% was shot by %killer% using a %name%'
 DestructableMaterials:
 - MATERIAL_NAME_HERE

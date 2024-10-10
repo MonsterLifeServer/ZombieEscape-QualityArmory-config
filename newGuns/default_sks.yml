@@ -51,8 +51,8 @@ ReloadingHandler: none
 addMuzzleSmoke: true
 drop-glow-color: none
 headshotMultiplier: 3.5
-weaponsounds_volume: 4
-firing_knockback: 0
+weaponsounds_volume: 1
+firing_knockback: 0.3
 DestructableMaterials:
 - MATERIAL_NAME_HERE
 lastModifiedByQA: 1727705205411

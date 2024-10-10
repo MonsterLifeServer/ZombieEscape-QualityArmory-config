@@ -50,10 +50,10 @@ Version_18_Support: false
 ChargingHandler: none
 addMuzzleSmoke: true
 drop-glow-color: none
-weaponsounds_volume: 4
+weaponsounds_volume: 1
 weaponsounds_reloadingSound: reloadmagclick
-firing_knockback: 0
+firing_knockback: 0.3
 DestructableMaterials:
 - MATERIAL_NAME_HERE
-lastModifiedByQA: 1727710015308
+lastModifiedByQA: 1728208104076
 ammotype: '556'

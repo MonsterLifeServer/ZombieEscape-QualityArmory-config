@@ -46,15 +46,15 @@ bullets-per-shot: 1
 isAutomatic: false
 unlimitedAmmo: false
 LightLeveOnShoot: 14
-slownessOnEquip: 0
+slownessOnEquip: 5
 Version_18_Support: false
 ChargingHandler: none
 addMuzzleSmoke: true
 drop-glow-color: none
 headshotMultiplier: 3.5
-weaponsounds_volume: 4
+weaponsounds_volume: 1
 weaponsounds_reloadingSound: reloadbullet
-firing_knockback: 0
+firing_knockback: 0.3
 DestructableMaterials:
 - MATERIAL_NAME_HERE
 lastModifiedByQA: 1727705204874
