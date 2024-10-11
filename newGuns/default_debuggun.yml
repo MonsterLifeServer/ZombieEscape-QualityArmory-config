@@ -52,7 +52,7 @@ addMuzzleSmoke: true
 drop-glow-color: none
 weaponsounds_volume: 1
 weaponsounds_reloadingSound: reloadmagclick
-firing_knockback: 0.3
+firing_knockback: 0
 DestructableMaterials:
 - MATERIAL_NAME_HERE
 lastModifiedByQA: 1728208104076

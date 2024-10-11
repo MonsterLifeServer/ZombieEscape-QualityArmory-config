@@ -52,7 +52,7 @@ headshotMultiplier: 3.5
 weaponsounds_volume: 1
 weaponsounds_reloadingSound: reloadbullet
 weaponsounds_chargingSound: reloadbullet
-firing_knockback: 0.3
+firing_knockback: 0
 DestructableMaterials:
 - MATERIAL_NAME_HERE
 lastModifiedByQA: 1727705204903

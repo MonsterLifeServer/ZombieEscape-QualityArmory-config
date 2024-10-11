@@ -49,7 +49,7 @@ drop-glow-color: none
 headshotMultiplier: 3.5
 weaponsounds_volume: 1
 weaponsounds_reloadingSound: reloadshell
-firing_knockback: 0.3
+firing_knockback: 0
 KilledByMessage: '%player% was shot by %killer% using a %name%'
 DestructableMaterials:
 - MATERIAL_NAME_HERE
